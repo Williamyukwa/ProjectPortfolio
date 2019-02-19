@@ -37,4 +37,9 @@ app.get('/download',(req,res)=>{
 	res.sendFile(path.join(__dirname,'download.html'));
 });
 
+app.get('/note',(req,res)=>{
+	res.sendFile(path.join(__dirname,'note.html'));
+});
+
+
 app.listen(8080);
