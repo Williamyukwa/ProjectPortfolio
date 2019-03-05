@@ -1,0 +1,1 @@
+The Project involove HTML, CSS, JS ES6, JQuery, Nodejs, Bootstrap

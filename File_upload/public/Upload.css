@@ -1,0 +1,14 @@
+.upload{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+.btn{
+    display: block;
+}
+
+.form-control{
+    height:100%;
+}

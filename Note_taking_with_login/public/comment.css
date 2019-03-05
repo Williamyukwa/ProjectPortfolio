@@ -1,0 +1,91 @@
+.header{
+    background-color:#cfe656;
+    padding:15px 0px 15px 30px;
+    height:10vh;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.row{
+    height:90vh;
+}
+
+h6{
+    font-size:20px;
+}
+
+
+/* ------------Structure---------- */
+
+.content{
+    padding:15px;
+}
+
+.list{
+    border-right:gray solid 1px;
+    padding:15px 30px 15px 30px
+}
+
+.noteLink{
+    color: #758332;
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid #758332;
+}
+
+.noteLink:hover{
+    color: #cfe656;
+}
+
+/* ------------Form---------- */
+
+#text{
+    width:70vw;
+    height:30vh;
+    border:1px solid gray;
+}
+
+#title{
+    width:70vw;
+    border:1px solid gray;
+}
+
+.btn{
+    display:block;
+    margin: 10px 0 20px 0;
+ 
+}
+
+
+.saveDeleteButtons{
+    display:flex;
+
+}
+
+#deleteButton{
+    margin-left:2vw;
+}
+
+@media only screen and (max-width: 500px) {
+    .header{
+        padding:15px 0px 15px 15px;
+    }
+
+    #text{
+        width:90vw;       
+    }
+    
+    #title{
+        width:90vw;
+    }
+
+    .list{
+        border-right: none;
+        padding:15px;
+    }
+
+    #deleteButton{
+        margin-left:2vw;
+    }
+}

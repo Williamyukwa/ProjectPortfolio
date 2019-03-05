@@ -1,0 +1,24 @@
+{
+    "user": [
+        {  
+            "people": "shit",
+            "password": "fuck you",
+            "location": "Hong Kong"
+        },
+        {  
+            "people": "shit1",
+            "password": "fuck you",
+            "location": "Hong Kong"
+        },
+        {  
+            "people": "shit2",
+            "password": "fuck you",
+            "location": "Hong Kong"
+        },
+        {  
+            "people": "shi3",
+            "password": "fuck you",
+            "location": "Hong Kong"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+<div class="container-fluid"> 
+<div class="row">
+    <div class='col-sm-3 col-xs-12 list'>
+        <h5>Welcome back Sam!</h5>
+      
+        <button class='btn btn-outline-success' id='addNew'> <i class="fas fa-plus"></i> Add new </button>
+
+     
+     
+        <h6>Your notes:</h6>
+        {{!-- seting up the template by using jquery --}}
+        <div class='allnotes'>
+
+        </div>
+
+    </div>
+
+    <div class='col-sm-9 col-xs-12 content'>
+        <form id='note'>
+
+            <input type="text" id="title" name='title' placeholder="Title">
+            <textarea id="text" name='text' placeholder="Input notes"></textarea>
+        
+        </form>
+        <button class='btn btn-outline-success' onclick="submitNote()" id="noteButton"  ><i class="fas fa-save"></i> Save</button>
+
+    </div>
+    <script src="script.js"></script>
+</div>
+
+</div>
